@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "Cunia";
+	src: url("Cunia.woff2") format("woff2"), url("Cunia.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Arturo Trial";
+	src: url("ArturoTrial-Regular.woff2") format("woff2"),
+	url("ArturoTrial-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Sansation";
+	src: url("SansationRegular.woff2") format("woff2"),
+	url("SansationRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Sansation";
+	src: url("SansationBold.woff2") format("woff2"),
+	url("SansationBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Arturo Trial";
+	src: url("ArturoTrial-Bold.woff2") format("woff2"),
+	url("ArturoTrial-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Sansation";
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bg_wrapper {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main_nav img {
+	height: 35px;
+}
+
+.landing-title-1 {
+	font-family: "Arturo Trial";
+	font-weight: bold;
+	font-style: normal;
+	color: #6D6E71;
+}
+
+.landing-title-2 {
+	font-family: "Arturo Trial";
+	font-weight: normal;
+	font-style: normal;
+	color: #6D6E71;
+}
+
+.landing-title-3 {
+	font-family: "Cunia";
+	font-weight: bold;
+	font-style: normal;
+	color: #F7941D;
+}
+
+.text-primary {
+	color: #1966A4 !important;
+}
+
+.other_nav img {
+	height: 55px;
+}
+
+.bg_center {
+	height: 400px
+}
+
+.bg_side {
+	height: 100%
+}
+
+@media (max-width: 980px) {
+	.bg_center {
+		height: 250px
+	}
+	
+	.bg_side {
+		height: 100px
+	}
+}
+
+@media (max-width: 767px) {
+	.bg_center {
+		height: 250px
+	}
+	
+	.bg_side {
+		height: 250px
+	}
+}
+
