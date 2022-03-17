@@ -50,7 +50,7 @@ body {
 
 .bg_wrapper {
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: cover;
 }
 
@@ -81,6 +81,10 @@ body {
 
 .text-primary {
 	color: #1966A4 !important;
+}
+
+.bg-primary {
+	background-color: #1966A4 !important;
 }
 
 .other_nav img {
@@ -115,3 +119,25 @@ body {
 	}
 }
 
+.custom_list {
+	list-style: none;
+	padding: 0;
+}
+
+.custom_list li {
+	padding: 0;
+	font-size: 1.6rem;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #414042;
+}
+
+.custom_list li::before {
+	content: "";
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 7px;
+	background-repeat: no-repeat;
+	background-image: url('../img/check.svg');
+}
